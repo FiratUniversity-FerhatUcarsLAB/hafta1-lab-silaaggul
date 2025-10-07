@@ -1,4 +1,74 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250541020
+AD-SOYAD: SILA AĞGÜL
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+Benim seçtiğim görev "Telefon rehberini alfabetik düzenleme algoritması" bu ödevi yaparken chatgpt kullandım.
+"Telefon rehberini alfabetik düzenleme algoritması için adım adım algoritma geliştirmek istiyorum. Koşullu durumları, tekrar eden işlemleri de içeren detaylı bir pseudocode yaz."
+Chatgpt'nin cevabı:
+
+1. Başla
+
+2. Telefon rehberini oku.
+   Her kişi için ad, soyad ve telefon numarası bilgilerini al.
+
+3. Rehberde kayıtlı kişi sayısını kontrol et.
+   Eğer rehber boşsa:
+       "Rehberde kişi yok." yaz.
+       Bitir.
+   Eğer sadece bir kişi varsa:
+       "Tek kişi var, sıralama gerekmez." yaz.
+       Bitir.
+
+4. Sıralama işlemi için rehber listesini hazırla.
+   Her kayıt bir liste elemanı gibi düşünülebilir.
+
+5. Alfabetik sıralama yapmak için bir döngü başlat.
+   Rehberdeki her ismi diğerleriyle karşılaştır.
+
+6. Karşılaştırma işlemi:
+       İlk kişinin adını al.
+       İkinci kişinin adını al.
+       Eğer ilk isim ikinci isimden alfabetik olarak önce geliyorsa:
+            Yerlerini koru.
+       Eğer ikinci isim önce geliyorsa:
+            İki kişinin yerini değiştir.
+       Eğer adlar aynıysa:
+            Soyadları karşılaştır.
+            Alfabetik olarak önce geleni üste al.
+
+7. Tüm liste boyunca bu karşılaştırmayı sürdür.
+   Her değişiklikten sonra listenin başına dön.
+   Artık değişiklik yapılmıyorsa sıralama tamamlanmıştır.
+
+8. Sıralama sırasında büyük-küçük harf farkını göz ardı et.
+   Böylece “Ahmet” ve “ahmet” aynı sırada değerlendirilir.
+
+9. Sıralama bittiğinde:
+       Rehber artık alfabetik düzendedir.
+       En üstte A harfiyle başlayan isimler yer alır.
+       Z’ye doğru sıralı biçimde devam eder.
+
+10. Kullanıcıya düzenlenmiş rehberi göster.
+       Her satırda:
+           Ad - Soyad - Telefon Numarası
+       şeklinde yaz.
+
+11. Kullanıcıya şu soruyu sor:
+       “Rehberi kaydetmek ister misiniz?”
+       Eğer evet derse:
+            Yeni sıralamayı dosyaya kaydet.
+            "Rehber başarıyla kaydedildi." yaz.
+       Eğer hayır derse:
+            "Sıralama geçici olarak yapıldı." yaz.
+
+12. Kullanıcı isterse, bir harfe göre filtreleme yapılabilir.
+       Örneğin:
+           “Sadece A ile başlayan kişileri göster.”
+       Bu durumda liste filtrelenip yeniden gösterilir.
+
+13. İşlem tamamlandığında:
+       “Rehber alfabetik olarak düzenlendi.” mesajını yaz.
+
+14. Bitir.
+
+
