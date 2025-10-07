@@ -1,4 +1,63 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250541020
+AD-SOYAD: SILA AĞGÜL
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+
+Benim seçtiğim görev "Sınav planı oluşturma algoritması" bu ödevi yaparken chatgpt kullandım.
+"sınav çalışma planı oluşturma algoritması için adım adım algoritma geliştirmek istiyorum. Koşullu durmları,tekrar eden işlemleri de içeren detaylı bir pseudocode yaz."
+Chatgpt'nin cevabı:
+
+1. Başla
+2. Kullanıcıdan sınav tarihini al.
+3. Kullanıcıdan sınava gireceği dersleri iste.
+   Eğer ders girilmediyse "Plan oluşturulamaz." yaz ve bitir.
+
+4. Her ders için:
+      Ders adını al.
+      Konu sayısını sor.
+      Zorluk seviyesini iste (1 kolay, 2 orta, 3 zor).
+      Bilgileri listeye ekle.
+
+5. Sınava kalan gün sayısını hesapla.
+   Eğer gün sayısı 0 veya küçükse "Sınava kalan gün yok." yaz ve bitir.
+
+6. Günde kaç saat çalışabileceğini sor.
+   Eğer saat 0 veya küçükse "Geçersiz süre." yaz ve bitir.
+
+7. Her ders için öncelik puanını hesapla:
+      öncelik = zorluk × konu sayısı.
+
+8. Dersleri öncelik puanına göre sırala.
+
+9. Toplam öncelik puanını bul.
+   Her dersin çalışma süresini orantılı olarak dağıt.
+
+10. Günlük planı oluştur.
+    Her gün için:
+        Gün numarasını yaz.
+        Her ders için:
+            Ders adını ve çalışma süresini yaz.
+            Eğer konu bitti ise "Tamamlandı" olarak işaretle.
+            Değilse kalan konuyu sonraki güne aktar.
+        Gün sonunda özet yaz:
+            Çalışılan saat, tamamlanan ve kalan konular.
+
+11. Her 3 günde bir tekrar günü oluştur.
+    Önceki konuları gözden geçir.
+    Eğer kullanıcı istemezse bu adımı atla.
+
+12. Sınavdan önceki 2 günü genel tekrar olarak ayır.
+    Bu günlerde özet ve test çözümü yapılır.
+
+13. Planı göster.
+    Kullanıcıya "Kaydetmek ister misin?" diye sor.
+    Eğer evet derse kaydet, değilse geç.
+
+14. "Plan hazır, başarılar!" mesajını yaz.
+15. Bitir.
+
+
+
+
+
+
