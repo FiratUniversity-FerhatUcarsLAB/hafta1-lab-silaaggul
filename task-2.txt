@@ -4,7 +4,9 @@ AD-SOYAD:SILA AĞGÜL
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
 
 Benim seçtiğim görev"Sudoku çözme yaklaşımı" bu ödevi yaparken chatgpt kullandım.
-"Sudoku çözme yaklaşımı algoritması için adım adım algoritma geliştirmek istiyorum.Koşullu durumları, tekrar eden işlemleri de içeren detaylı bir pseudecode yaz."
+
+"Sudoku bulmacasını çözmek için kullanılan mantıksal adımları içeren bir algoritma yaz. Algoritma, boş hücreleri bulma, sayı deneme, uygunluk kontrolü gibi işlemleri içermelidir."
+
 Chatgpt'nin cevabı:
 
 1. Başla
