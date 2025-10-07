@@ -1,4 +1,76 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250541020
+AD-SOYAD: SILA AĞGÜL
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+
+Benim seçtiğim görev "Renkleri karıştırarak hedef rengi elde etme" algoritması. Bu ödevi yaparken chatgpt kullandım.
+"Renkleri karıştırarak hedef rengi elde etme algoritması için adım aadım algoritma geliştirmek istiyorum.Koşullu durumları,tekrar eden işlemleri içeren detaylı bir pseudocode yaz."
+Chatgpt'nin cevabı:
+
+1. Başla
+
+2. Hedef rengi belirle.
+   Kullanıcıdan elde edilmek istenen rengi iste.
+   (Örneğin: mor, turuncu, açık yeşil gibi.)
+
+3. Temel renkleri tanımla.
+   Ana renkler: kırmızı, mavi, sarı.
+   Bu renkler karıştırılarak diğer renkler elde edilir.
+
+4. Hedef rengi analiz et.
+   Eğer hedef renk ana renklerden biriyse:
+        Hedef renk zaten hazır, karışım gerekmez.
+        Yaz "Hedef renk doğrudan mevcut."
+        Bitir.
+   Değilse:
+        Hedef rengin hangi renklerden oluştuğunu belirle.
+        (Örnek: mor = kırmızı + mavi)
+
+5. Kullanıcıya mevcut renkleri sor.
+   Elinde hangi renklerin olduğunu kontrol et.
+
+6. Eğer hedefi oluşturmak için gereken renkler mevcutsa:
+        Gerekli renkleri seç.
+        Karışım oranlarını belirle.
+        (Örnek: kırmızı %50, mavi %50)
+   Değilse:
+        Eksik renkleri türetmek için alt karışımlar oluştur.
+        (Örnek: yeşil yoksa, mavi + sarı karıştır.)
+
+7. Renkleri karıştırmaya başla.
+       Seçilen renklerin oranına göre karıştırma işlemi yap.
+       Eğer renk çok koyuysa:
+           Beyaz ekle, ton açılır.
+       Eğer renk çok açık geldiyse:
+           Ana renklerden uygun olanı ekle, koyulaşır.
+
+8. Karışım sonucunu kontrol et.
+       Elde edilen rengin hedef renge yakınlığını değerlendir.
+       Eğer renk hedefe yeterince yakınsa:
+           "Hedef renk elde edildi." yaz.
+       Eğer değilse:
+           Oranları küçük adımlarla değiştir ve yeniden karıştır.
+
+9. Her değişiklikten sonra tekrar kontrol et.
+       Renk uygun olana kadar karışımı sürdür.
+
+10. Hedef renk başarıyla elde edildiğinde:
+        Son karışım oranlarını kaydet.
+        (Örnek: kırmızı %40, mavi %40, beyaz %20)
+
+11. Kullanıcıya sonucu göster:
+        "Hedef renk oluştu."
+        Karışım oranlarını ekrana yaz.
+
+12. İstersen bu karışım reçetesini kaydet.
+        Kullanıcıya “Kaydetmek ister misiniz?” diye sor.
+        Eğer evet derse:
+             Oranları dosyaya kaydet.
+        Eğer hayır derse:
+             “Sonuç kaydedilmedi.” yaz.
+
+13. “Renk karışımı tamamlandı.” mesajını göster.
+14. Bitir.
+
+
+
