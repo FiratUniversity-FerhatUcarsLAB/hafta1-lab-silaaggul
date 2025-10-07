@@ -3,8 +3,10 @@ AD-SOYAD: SILA AĞGÜL
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
 
-Benim seçtiğim görev "Sınav planı oluşturma algoritması" bu ödevi yaparken chatgpt kullandım.
-"sınav çalışma planı oluşturma algoritması için adım adım algoritma geliştirmek istiyorum. Koşullu durmları,tekrar eden işlemleri de içeren detaylı bir pseudocode yaz."
+Benim seçtiğim görev "Sınav planı oluşturma algoritması" bu ödevi yaparken chatgpt'den yararlandım.
+
+"Sınav hazırlığı için dersleri ve çalışma sürelerini düzenleyen, koşullu durumlar ve tekrar eden işlemler içeren ayrıntılı bir pseudocode yaz. Algoritmayı Türkçe ve doğal bir dille adım adım yaz."
+
 Chatgpt'nin cevabı:
 
 1. Başla
