@@ -3,8 +3,10 @@ AD-SOYAD: SILA AĞGÜL
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
 
-Benim seçtiğim görev "Renkleri karıştırarak hedef rengi elde etme" algoritması. Bu ödevi yaparken chatgpt kullandım.
-"Renkleri karıştırarak hedef rengi elde etme algoritması için adım aadım algoritma geliştirmek istiyorum.Koşullu durumları,tekrar eden işlemleri içeren detaylı bir pseudocode yaz."
+Benim seçtiğim görev "Renkleri karıştırarak hedef rengi elde etme" algoritması. Bu ödevi chatgpt ile hazırladım.
+
+"Belirli bir hedef rengi elde etmek için temel renkleri belirli oranlarda karıştıran bir algoritma yaz. Algoritma, mevcut renkleri kontrol etme, oran belirleme, karışım sonucunu değerlendirme ve gerektiğinde düzeltme adımlarını içersin."
+
 Chatgpt'nin cevabı:
 
 1. Başla
