@@ -2,8 +2,10 @@
 AD-SOYAD: SILA AĞGÜL
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+
 Benim seçtiğim görev "Telefon rehberini alfabetik düzenleme algoritması" bu ödevi yaparken chatgpt kullandım.
 "Telefon rehberini alfabetik düzenleme algoritması için adım adım algoritma geliştirmek istiyorum. Koşullu durumları, tekrar eden işlemleri de içeren detaylı bir pseudocode yaz."
+
 Chatgpt'nin cevabı:
 
 1. Başla
