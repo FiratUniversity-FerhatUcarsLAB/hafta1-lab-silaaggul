@@ -1,4 +1,58 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250541020
+AD-SOYAD:SILA AĞGÜL
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+
+"Bitkilerin sulanma zamanını belirleme" algoritmasını seçtim. Bu ödevi yaparken chatgpt'den yardım aldım.
+
+"Farklı bitki türlerinin sulama aralıklarına göre hangi günlerde sulanması gerektiğini belirleyen bir algoritma oluşturunuz. Algoritma, tarih karşılaştırmaları, koşullu kontroller ve tekrar eden günlük işlemleri kapsamalıdır.
+
+Chatgpt'nin cevabı:
+
+1. Başla
+
+2. Bitki listesini oluştur.
+   Her bitki için adını ve türünü kaydet.
+   (Örnek: kaktüs, orkide, fesleğen)
+
+3. Her bitki için ihtiyaç duyulan sulama sıklığını tanımla.
+   Kaktüs → 7 günde 1
+   Orkide → 3 günde 1
+   Fesleğen → her gün
+
+4. Günün tarihini al.
+   Her bitkinin en son sulandığı tarihi kontrol et.
+
+5. Her bitki için şu işlemleri sırayla yap:
+       Bugünün tarihi ile son sulama tarihi arasındaki farkı hesapla.
+       Eğer fark, bitkinin sulama aralığına eşit veya büyükse:
+            “Sulama zamanı geldi.” olarak işaretle.
+       Değilse:
+            “Henüz sulamaya gerek yok.” olarak işaretle.
+
+6. Eğer birden fazla bitkinin sulama zamanı geldiyse:
+        Bu bitkileri bir listeye ekle.
+        Listeyi alfabetik sıraya göre düzenle.
+        Kullanıcıya “Bugün sulanması gereken bitkiler:” olarak göster.
+
+7. Kullanıcıya sor:
+       “Bitkileri şimdi suladınız mı?”
+       Eğer evet derse:
+            Sulanan bitkilerin son sulama tarihini bugüne güncelle.
+       Eğer hayır derse:
+            “Hatırlatma ayarla.” seçeneğini sun.
+            Hatırlatmayı 1 saat sonraya planla.
+
+8. Gün sonunda sistem otomatik kontrol yapar.
+       Yeni gün başladıysa:
+            Tüm bitkiler için adım 5’ten itibaren işlemleri tekrar et.
+
+9. Haftalık rapor oluştur.
+       Hangi bitkiler zamanında sulanmış,
+       Hangileri gecikmiş, kontrol et.
+       Kullanıcıya kısa bir özet göster.
+
+10. “Sulama planı başarıyla güncellendi.” mesajını yaz.
+
+11. Bitir.
+
