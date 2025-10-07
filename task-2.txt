@@ -1,4 +1,52 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250541020
+AD-SOYAD:SILA AĞGÜL
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+
+Benim seçtiğim görev"Sudoku çözme yaklaşımı" bu ödevi yaparken chatgpt kullandım.
+"Sudoku çözme yaklaşımı algoritması için adım adım algoritma geliştirmek istiyorum.Koşullu durumları, tekrar eden işlemleri de içeren detaylı bir pseudecode yaz."
+Chatgpt'nin cevabı:
+
+1. Başla
+
+2. 9x9 Sudoku tahtasını oluştur.
+   Boş hücreleri 0 ile temsil et.
+
+3. Sudoku kurallarını hatırla:
+      Her satırda 1–9 arası rakamlar sadece bir kez bulunur.
+      Her sütunda 1–9 arası rakamlar sadece bir kez bulunur.
+      Her 3x3 kutuda da 1–9 arası rakamlar yalnızca bir kez bulunur.
+
+4. İlk boş hücreyi bul.
+   Eğer boş hücre yoksa:
+       Sudoku çözülmüştür.
+       Tahtayı ekrana yaz.
+       Bitir.
+
+5. Bulunan boş hücre için 1’den 9’a kadar sayıları sırayla dene.
+      Her sayı için:
+          Sayının aynı satırda, sütunda veya 3x3 kutuda olup olmadığını kontrol et.
+          Eğer sayı kurallara uygunsa:
+              Hücreye bu sayıyı yerleştir.
+              Sonraki boş hücreye geç.
+              Aynı işlemi tekrarla.
+              Eğer sonraki adımda çözüm bulunursa:
+                  Bitir.
+              Eğer çözülemiyorsa:
+                  Yerleştirilen sayıyı sil.
+                  Hücreyi tekrar boş yap.
+          Eğer sayı uygun değilse:
+              Sonraki sayıya geç.
+
+6. Eğer 1–9 arası hiçbir sayı uygun değilse:
+       Bu noktada geriye dön.
+       Önceki hücreye git ve oradaki sayıyı değiştir.
+       Bu işlemi uygun bir sayı bulunana kadar sürdür.
+
+7. Tüm hücreler dolduğunda Sudoku tamamlanır.
+   Ekrana “Sudoku başarıyla çözüldü.” mesajı yaz.
+   Tahtanın son halini göster.
+
+8. Bitir.
+
+
