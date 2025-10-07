@@ -5,7 +5,7 @@ Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya e
 
 "Bitkilerin sulanma zamanını belirleme" algoritmasını seçtim. Bu ödevi yaparken chatgpt'den yardım aldım.
 
-"Farklı bitki türlerinin sulama aralıklarına göre hangi günlerde sulanması gerektiğini belirleyen bir algoritma oluşturunuz. Algoritma, tarih karşılaştırmaları, koşullu kontroller ve tekrar eden günlük işlemleri kapsamalıdır.
+"Farklı bitki türlerinin sulama aralıklarına göre hangi günlerde sulanması gerektiğini belirleyen bir algoritma oluştur. Algoritma, tarih karşılaştırmaları, koşullu kontroller ve tekrar eden günlük işlemleri kapsamalıdır.
 
 Chatgpt'nin cevabı:
 
