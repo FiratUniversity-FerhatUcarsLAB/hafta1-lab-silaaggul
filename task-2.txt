@@ -5,7 +5,7 @@ Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya e
 
 Benim seçtiğim görev"Sudoku çözme yaklaşımı" bu ödevi yaparken Google Gemini kullandım.
 
-"Sudoku bulmacasını çözmek için kullanılan mantıksal adımları içeren bir algoritma yaz. Algoritma, boş hücreleri bulma, sayı deneme, uygunluk kontrolü gibi işlemleri içermelidir."
+"Sudoku bulmacasını çözmek için kullanılan mantıksal adımları içeren bir pseudecode yaz. Pseudecode, boş hücreleri bulma, sayı deneme, uygunluk kontrolü gibi işlemleri içermelidir."
 
 Google Gemini'nin cevabı:
 
